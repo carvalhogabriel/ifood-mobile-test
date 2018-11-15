@@ -7,13 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0192799DF3976FADF25ED52A /* Pods_ifood_mobile_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD9C3C72C676B2B0A82A7C /* Pods_ifood_mobile_test.framework */; };
 		09490A18219B540A008AB8D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A17219B540A008AB8D2 /* AppDelegate.swift */; };
-		09490A1A219B540A008AB8D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A19219B540A008AB8D2 /* ViewController.swift */; };
+		09490A1A219B540A008AB8D2 /* TweetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A19219B540A008AB8D2 /* TweetListViewController.swift */; };
 		09490A1D219B540A008AB8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09490A1B219B540A008AB8D2 /* Main.storyboard */; };
 		09490A1F219B540D008AB8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09490A1E219B540D008AB8D2 /* Assets.xcassets */; };
 		09490A22219B540D008AB8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09490A20219B540D008AB8D2 /* LaunchScreen.storyboard */; };
 		09490A2D219B540D008AB8D2 /* ifood_mobile_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A2C219B540D008AB8D2 /* ifood_mobile_testTests.swift */; };
 		09490A38219B540D008AB8D2 /* ifood_mobile_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A37219B540D008AB8D2 /* ifood_mobile_testUITests.swift */; };
+		09490A5D219C39FE008AB8D2 /* TweetListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A5C219C39FE008AB8D2 /* TweetListInteractor.swift */; };
+		09490A5F219C3A0B008AB8D2 /* TweetListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A5E219C3A0B008AB8D2 /* TweetListPresenter.swift */; };
+		09490A61219C3A19008AB8D2 /* TweetListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A60219C3A19008AB8D2 /* TweetListModel.swift */; };
+		09490A63219C3A4C008AB8D2 /* TweetListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A62219C3A4C008AB8D2 /* TweetListRouter.swift */; };
+		09490A65219C3A5D008AB8D2 /* TweetListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A64219C3A5D008AB8D2 /* TweetListProtocols.swift */; };
+		09490A69219C3E3F008AB8D2 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A68219C3E3F008AB8D2 /* AppConstants.swift */; };
+		09490A6D219C4451008AB8D2 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A6C219C4451008AB8D2 /* ProgressIndicator.swift */; };
+		09490A7C219DADE3008AB8D2 /* SentimentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A7B219DADE3008AB8D2 /* SentimentViewController.swift */; };
+		09490A7E219DAE86008AB8D2 /* SentimentProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A7D219DAE86008AB8D2 /* SentimentProtocols.swift */; };
+		09490A80219DAF27008AB8D2 /* SentimentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A7F219DAF27008AB8D2 /* SentimentRouter.swift */; };
+		09490A82219DAF31008AB8D2 /* SentimentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A81219DAF31008AB8D2 /* SentimentModel.swift */; };
+		09490A84219DAF3D008AB8D2 /* SentimentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A83219DAF3D008AB8D2 /* SentimentPresenter.swift */; };
+		09490A86219DAF47008AB8D2 /* SentimentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A85219DAF47008AB8D2 /* SentimentInteractor.swift */; };
+		09490A88219DE9CA008AB8D2 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09490A87219DE9CA008AB8D2 /* Indicator.swift */; };
+		BC97DC086246F98953B93CE3 /* Pods_ifood_mobile_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7609694A4D14B2DFBF300DC6 /* Pods_ifood_mobile_testUITests.framework */; };
+		C9E8F65DAF8AE34F91038131 /* Pods_ifood_mobile_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2B08A5FA6610DD414041BF /* Pods_ifood_mobile_testTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +53,7 @@
 /* Begin PBXFileReference section */
 		09490A14219B540A008AB8D2 /* ifood-mobile-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ifood-mobile-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09490A17219B540A008AB8D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09490A19219B540A008AB8D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09490A19219B540A008AB8D2 /* TweetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListViewController.swift; sourceTree = "<group>"; };
 		09490A1C219B540A008AB8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09490A1E219B540D008AB8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09490A21219B540D008AB8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,29 @@
 		09490A33219B540D008AB8D2 /* ifood-mobile-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ifood-mobile-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09490A37219B540D008AB8D2 /* ifood_mobile_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifood_mobile_testUITests.swift; sourceTree = "<group>"; };
 		09490A39219B540D008AB8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09490A5C219C39FE008AB8D2 /* TweetListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListInteractor.swift; sourceTree = "<group>"; };
+		09490A5E219C3A0B008AB8D2 /* TweetListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListPresenter.swift; sourceTree = "<group>"; };
+		09490A60219C3A19008AB8D2 /* TweetListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListModel.swift; sourceTree = "<group>"; };
+		09490A62219C3A4C008AB8D2 /* TweetListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListRouter.swift; sourceTree = "<group>"; };
+		09490A64219C3A5D008AB8D2 /* TweetListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListProtocols.swift; sourceTree = "<group>"; };
+		09490A68219C3E3F008AB8D2 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		09490A6C219C4451008AB8D2 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		09490A7B219DADE3008AB8D2 /* SentimentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentViewController.swift; sourceTree = "<group>"; };
+		09490A7D219DAE86008AB8D2 /* SentimentProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentProtocols.swift; sourceTree = "<group>"; };
+		09490A7F219DAF27008AB8D2 /* SentimentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentRouter.swift; sourceTree = "<group>"; };
+		09490A81219DAF31008AB8D2 /* SentimentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentModel.swift; sourceTree = "<group>"; };
+		09490A83219DAF3D008AB8D2 /* SentimentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentPresenter.swift; sourceTree = "<group>"; };
+		09490A85219DAF47008AB8D2 /* SentimentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentInteractor.swift; sourceTree = "<group>"; };
+		09490A87219DE9CA008AB8D2 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Contants/Indicator.swift; sourceTree = "<group>"; };
+		17DF6D11ECD1BAB47F98C3FF /* Pods-ifood-mobile-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-test.debug.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test.debug.xcconfig"; sourceTree = "<group>"; };
+		204FC8CE98E5643BBBCAB5FA /* Pods-ifood-mobile-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-testTests.release.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-testTests/Pods-ifood-mobile-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		38BD95CA855EF7F8C5E6509F /* Pods-ifood-mobile-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-test.release.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test.release.xcconfig"; sourceTree = "<group>"; };
+		4F2B08A5FA6610DD414041BF /* Pods_ifood_mobile_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifood_mobile_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7609694A4D14B2DFBF300DC6 /* Pods_ifood_mobile_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifood_mobile_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3962975330C118EBB3459A1 /* Pods-ifood-mobile-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-testTests.debug.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-testTests/Pods-ifood-mobile-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0EBFF8A9438FDEEB4AF46C7 /* Pods-ifood-mobile-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-testUITests.debug.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-testUITests/Pods-ifood-mobile-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA8522DD1A2EDC9F509F076 /* Pods-ifood-mobile-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ifood-mobile-testUITests.release.xcconfig"; path = "Target Support Files/Pods-ifood-mobile-testUITests/Pods-ifood-mobile-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFBD9C3C72C676B2B0A82A7C /* Pods_ifood_mobile_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ifood_mobile_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0192799DF3976FADF25ED52A /* Pods_ifood_mobile_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E8F65DAF8AE34F91038131 /* Pods_ifood_mobile_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC97DC086246F98953B93CE3 /* Pods_ifood_mobile_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +124,8 @@
 				09490A2B219B540D008AB8D2 /* ifood-mobile-testTests */,
 				09490A36219B540D008AB8D2 /* ifood-mobile-testUITests */,
 				09490A15219B540A008AB8D2 /* Products */,
+				FC27DF8CA0F9C69C3DDD503F /* Pods */,
+				D7CEA0D47D5AAFE0D7700CC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +142,10 @@
 		09490A16219B540A008AB8D2 /* ifood-mobile-test */ = {
 			isa = PBXGroup;
 			children = (
+				09490A66219C3E18008AB8D2 /* Common Utils */,
+				09490A52219BA35E008AB8D2 /* Resources */,
+				09490A51219BA328008AB8D2 /* Modules */,
 				09490A17219B540A008AB8D2 /* AppDelegate.swift */,
-				09490A19219B540A008AB8D2 /* ViewController.swift */,
-				09490A1B219B540A008AB8D2 /* Main.storyboard */,
-				09490A1E219B540D008AB8D2 /* Assets.xcassets */,
-				09490A20219B540D008AB8D2 /* LaunchScreen.storyboard */,
 				09490A23219B540D008AB8D2 /* Info.plist */,
 			);
 			path = "ifood-mobile-test";
@@ -125,6 +169,204 @@
 			path = "ifood-mobile-testUITests";
 			sourceTree = "<group>";
 		};
+		09490A51219BA328008AB8D2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				09490A74219DAD6B008AB8D2 /* SentimentModule */,
+				09490A53219C37D8008AB8D2 /* TweetListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		09490A52219BA35E008AB8D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				09490A55219C3881008AB8D2 /* UI */,
+				09490A54219C3877008AB8D2 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		09490A53219C37D8008AB8D2 /* TweetListModule */ = {
+			isa = PBXGroup;
+			children = (
+				09490A5B219C38FD008AB8D2 /* View */,
+				09490A5A219C38F6008AB8D2 /* Interactor */,
+				09490A59219C38F0008AB8D2 /* Presenter */,
+				09490A58219C38EB008AB8D2 /* Entity */,
+				09490A57219C38E6008AB8D2 /* Router */,
+				09490A56219C38DA008AB8D2 /* Protocols */,
+			);
+			path = TweetListModule;
+			sourceTree = "<group>";
+		};
+		09490A54219C3877008AB8D2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				09490A1E219B540D008AB8D2 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		09490A55219C3881008AB8D2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				09490A20219B540D008AB8D2 /* LaunchScreen.storyboard */,
+				09490A1B219B540A008AB8D2 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		09490A56219C38DA008AB8D2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09490A64219C3A5D008AB8D2 /* TweetListProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		09490A57219C38E6008AB8D2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				09490A62219C3A4C008AB8D2 /* TweetListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		09490A58219C38EB008AB8D2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				09490A60219C3A19008AB8D2 /* TweetListModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		09490A59219C38F0008AB8D2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				09490A5E219C3A0B008AB8D2 /* TweetListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		09490A5A219C38F6008AB8D2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				09490A5C219C39FE008AB8D2 /* TweetListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		09490A5B219C38FD008AB8D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09490A19219B540A008AB8D2 /* TweetListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09490A66219C3E18008AB8D2 /* Common Utils */ = {
+			isa = PBXGroup;
+			children = (
+				09490A67219C3E2D008AB8D2 /* Contants */,
+				09490A87219DE9CA008AB8D2 /* Indicator.swift */,
+				09490A6C219C4451008AB8D2 /* ProgressIndicator.swift */,
+			);
+			path = "Common Utils";
+			sourceTree = "<group>";
+		};
+		09490A67219C3E2D008AB8D2 /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				09490A68219C3E3F008AB8D2 /* AppConstants.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		09490A74219DAD6B008AB8D2 /* SentimentModule */ = {
+			isa = PBXGroup;
+			children = (
+				09490A7A219DADCE008AB8D2 /* View */,
+				09490A79219DADC8008AB8D2 /* Interactor */,
+				09490A78219DADBF008AB8D2 /* Presenter */,
+				09490A77219DAD8F008AB8D2 /* Entity */,
+				09490A76219DAD8B008AB8D2 /* Router */,
+				09490A75219DAD87008AB8D2 /* Protocols */,
+			);
+			path = SentimentModule;
+			sourceTree = "<group>";
+		};
+		09490A75219DAD87008AB8D2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				09490A7D219DAE86008AB8D2 /* SentimentProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		09490A76219DAD8B008AB8D2 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				09490A7F219DAF27008AB8D2 /* SentimentRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		09490A77219DAD8F008AB8D2 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				09490A81219DAF31008AB8D2 /* SentimentModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		09490A78219DADBF008AB8D2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				09490A83219DAF3D008AB8D2 /* SentimentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		09490A79219DADC8008AB8D2 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				09490A85219DAF47008AB8D2 /* SentimentInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		09490A7A219DADCE008AB8D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09490A7B219DADE3008AB8D2 /* SentimentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7CEA0D47D5AAFE0D7700CC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFBD9C3C72C676B2B0A82A7C /* Pods_ifood_mobile_test.framework */,
+				4F2B08A5FA6610DD414041BF /* Pods_ifood_mobile_testTests.framework */,
+				7609694A4D14B2DFBF300DC6 /* Pods_ifood_mobile_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC27DF8CA0F9C69C3DDD503F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17DF6D11ECD1BAB47F98C3FF /* Pods-ifood-mobile-test.debug.xcconfig */,
+				38BD95CA855EF7F8C5E6509F /* Pods-ifood-mobile-test.release.xcconfig */,
+				B3962975330C118EBB3459A1 /* Pods-ifood-mobile-testTests.debug.xcconfig */,
+				204FC8CE98E5643BBBCAB5FA /* Pods-ifood-mobile-testTests.release.xcconfig */,
+				E0EBFF8A9438FDEEB4AF46C7 /* Pods-ifood-mobile-testUITests.debug.xcconfig */,
+				EDA8522DD1A2EDC9F509F076 /* Pods-ifood-mobile-testUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +374,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09490A3C219B540D008AB8D2 /* Build configuration list for PBXNativeTarget "ifood-mobile-test" */;
 			buildPhases = (
+				209E406236D5A933933ECE15 /* [CP] Check Pods Manifest.lock */,
 				09490A10219B540A008AB8D2 /* Sources */,
 				09490A11219B540A008AB8D2 /* Frameworks */,
 				09490A12219B540A008AB8D2 /* Resources */,
+				DD04F0AE308D3C7240DA63B9 /* [CP] Embed Pods Frameworks */,
+				41297477200AFF1565DEAE56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09490A3F219B540D008AB8D2 /* Build configuration list for PBXNativeTarget "ifood-mobile-testTests" */;
 			buildPhases = (
+				63F1597B6C0EF8B5EB49CFDD /* [CP] Check Pods Manifest.lock */,
 				09490A24219B540D008AB8D2 /* Sources */,
 				09490A25219B540D008AB8D2 /* Frameworks */,
 				09490A26219B540D008AB8D2 /* Resources */,
@@ -167,6 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09490A42219B540D008AB8D2 /* Build configuration list for PBXNativeTarget "ifood-mobile-testUITests" */;
 			buildPhases = (
+				F91C77BB0D91B79D133D74EA /* [CP] Check Pods Manifest.lock */,
 				09490A2F219B540D008AB8D2 /* Sources */,
 				09490A30219B540D008AB8D2 /* Frameworks */,
 				09490A31219B540D008AB8D2 /* Resources */,
@@ -251,13 +498,148 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		209E406236D5A933933ECE15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ifood-mobile-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41297477200AFF1565DEAE56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63F1597B6C0EF8B5EB49CFDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ifood-mobile-testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD04F0AE308D3C7240DA63B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ifood-mobile-test/Pods-ifood-mobile-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91C77BB0D91B79D133D74EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ifood-mobile-testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09490A10219B540A008AB8D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09490A1A219B540A008AB8D2 /* ViewController.swift in Sources */,
+				09490A5F219C3A0B008AB8D2 /* TweetListPresenter.swift in Sources */,
+				09490A63219C3A4C008AB8D2 /* TweetListRouter.swift in Sources */,
+				09490A86219DAF47008AB8D2 /* SentimentInteractor.swift in Sources */,
+				09490A65219C3A5D008AB8D2 /* TweetListProtocols.swift in Sources */,
+				09490A82219DAF31008AB8D2 /* SentimentModel.swift in Sources */,
+				09490A69219C3E3F008AB8D2 /* AppConstants.swift in Sources */,
+				09490A80219DAF27008AB8D2 /* SentimentRouter.swift in Sources */,
+				09490A1A219B540A008AB8D2 /* TweetListViewController.swift in Sources */,
+				09490A61219C3A19008AB8D2 /* TweetListModel.swift in Sources */,
+				09490A7E219DAE86008AB8D2 /* SentimentProtocols.swift in Sources */,
+				09490A5D219C39FE008AB8D2 /* TweetListInteractor.swift in Sources */,
+				09490A6D219C4451008AB8D2 /* ProgressIndicator.swift in Sources */,
 				09490A18219B540A008AB8D2 /* AppDelegate.swift in Sources */,
+				09490A84219DAF3D008AB8D2 /* SentimentPresenter.swift in Sources */,
+				09490A88219DE9CA008AB8D2 /* Indicator.swift in Sources */,
+				09490A7C219DADE3008AB8D2 /* SentimentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +812,7 @@
 		};
 		09490A3D219B540D008AB8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DF6D11ECD1BAB47F98C3FF /* Pods-ifood-mobile-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +830,7 @@
 		};
 		09490A3E219B540D008AB8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38BD95CA855EF7F8C5E6509F /* Pods-ifood-mobile-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +848,7 @@
 		};
 		09490A40219B540D008AB8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3962975330C118EBB3459A1 /* Pods-ifood-mobile-testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +869,7 @@
 		};
 		09490A41219B540D008AB8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204FC8CE98E5643BBBCAB5FA /* Pods-ifood-mobile-testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +890,7 @@
 		};
 		09490A43219B540D008AB8D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EBFF8A9438FDEEB4AF46C7 /* Pods-ifood-mobile-testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +910,7 @@
 		};
 		09490A44219B540D008AB8D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA8522DD1A2EDC9F509F076 /* Pods-ifood-mobile-testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.7.3)
+  - ObjectMapper (3.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper (~> 3.3)
+  - SDWebImage (~> 4.0)
+  - TwitterKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ObjectMapper
+    - SDWebImage
+    - TwitterCore
+    - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: 29fe14c3305dc50bcb74a54e4cd0345a7bd8bc76
+
+COCOAPODS: 1.6.0.beta.2
