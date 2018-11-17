@@ -89,6 +89,26 @@ enum Sentiment {
         }
     }
     
+    var backgroundColor: UIColor {
+        switch self {
+        case .happy:
+            return UIColor.yellow
+        case .sad:
+            return UIColor.gray
+        default:
+            return UIColor.blue
+        }
+    }
+    
+    var textColor: UIColor {
+        switch self {
+        case .sad:
+            return .white
+        default:
+            return .black
+        }
+    }
+    
     var text: String {
         switch self {
         case .happy:
