@@ -27,15 +27,18 @@ class SentimentViewController : UIViewController {
     @IBOutlet weak var sentimentEmoji: UILabel!
     @IBOutlet weak var sentimentLabel: UILabel!
     @IBOutlet weak var sentimentStackView: UIStackView!
-    @IBOutlet weak var tweetView: UIView!
     
     // MARK: - Private Method's
     private func setupUI() {
         if (self.sentimentList.isEmpty) {
-            self.tweetView.isHidden = true
+            self.userImage.isHidden = true
+            self.usernameTweet.isHidden = true
+            self.userTweet.isHidden = true
             self.sentimentStackView.isHidden = true
         } else {
-            self.tweetView.isHidden = false
+            self.userImage.isHidden = false
+            self.usernameTweet.isHidden = false
+            self.userTweet.isHidden = false
             self.sentimentStackView.isHidden = false
         }
     }
